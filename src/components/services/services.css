@@ -1,0 +1,80 @@
+.services {
+  padding: 0 3rem 03rem;
+  display: flex;
+  height: 90vh;
+  /* margin-bottom: 8rem; */
+  margin-top: 9 rem;
+  margin-bottom: 13rem;
+}
+
+.awesome {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  margin-top: 13rem;
+}
+
+.awesome > :nth-child(1) {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.awesome > :nth-child(2) {
+  color: var(--dark-pink);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.awesome > :nth-child(3) {
+  color: var(--gray);
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.services-btn {
+  width: 8rem;
+  height: 2rem;
+  padding: 4px 6px;
+  /* margin-top: 1rem; */
+}
+
+.services-blur {
+  top: -30vh;
+}
+
+.scnd-services-blur {
+  position: relative;
+  top: -50vh;
+  left: -50vw;
+}
+
+.thrd-services-blur {
+  position: relative;
+  top: -50vh;
+  right: 20vw;
+}
+
+.cards {
+  margin-top: 5rem;
+}
+.card-right {
+  max-width: 30vw;
+  max-height: 50vh;
+  position: relative;
+  left: 12vw;
+  top: -5vh;
+}
+
+.card-left {
+  max-width: 30vw;
+  max-height: 50vh;
+  position: relative;
+  left: 20vw;
+  top: -5vh;
+}

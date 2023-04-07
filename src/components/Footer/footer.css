@@ -1,3 +1,30 @@
-h1 {
-    color: green;
+.footer-section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-wave {
+  /* display: flex; */
+  width: 100vw;
+  max-height: 50vh;
+  align-items: center;
+  margin: -0.5rem -3.5rem;
+  /* margin-right: -10rem; */
+  position: relative;
+  margin-top: -7rem;
+  filter: blur(80%);
+}
+
+.footer-icons {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 8rem;
+  height: 2rem;
+}
+
+.footer-icons:hover {
+  cursor: pointer;
 }

@@ -7,6 +7,7 @@ import "./hero.css";
 import PinkBlob from "../../media/blobs/pinkBlob.png";
 import LightPinkBlob from "../../media/blobs/lightPinkBlob.png";
 import LaptopWave from "../../media/bitMoji/laptopWave.png";
+import SpeechBouble from "../../media/speechBouble.png";
 
 const Hero = () => {
   return (
@@ -49,36 +50,10 @@ const Hero = () => {
               color="pink"
             />
           </span>
-          {/* <BsLinkedin
-            className="icon"
-            style={{
-              margin: "2vw",
-            }}
-            onMouseOver={({ target }) => (target.style.color = "pink")}
-            onMouseOut={({ target }) => (target.style.color = "black")}
-            size="3.5vw"
-          />
-          <FaInstagram
-            className="icon"
-            style={{
-              margin: "2vw",
-            }}
-            onMouseOver={({ target }) => (target.style.color = "pink")}
-            onMouseOut={({ target }) => (target.style.color = "black")}
-            size="3.5vw"
-          />
-          <FaGithub
-            className="icon"
-            style={{
-              margin: "2vw",
-            }}
-            onMouseOver={({ target }) => (target.style.color = "pink")}
-            onMouseOut={({ target }) => (target.style.color = "black")}
-            size="3.5vw"
-          /> */}
         </section>
       </section>
       <section className="hero-right">
+        <img className="speech-bouble" src={SpeechBouble} alt="speech-bouble" />
         <img className="pink-blob" src={PinkBlob} alt="pink-blob" />
         <img
           className="light-pink-blob"
@@ -86,6 +61,17 @@ const Hero = () => {
           alt="light-pink-blob"
         />
         <img className="laptop-wave" src={LaptopWave} alt="LaptopWave" />
+        <div className="blur" style={{ background: "rgb(224, 73, 116)" }}></div>
+        <div
+          className="blur"
+          style={{
+            background: "rgb(244, 121, 154)",
+            top: "17rem",
+            width: "21rem",
+            height: "11rem",
+            left: "-9rem",
+          }}
+        ></div>
       </section>
     </div>
   );
