@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+
+:root{
+--light-pink: rgb(247, 180, 198);
+--medium-pink:rgb(244, 121, 154);
+--dark-pink: rgb(224, 73, 116);
+--gray: rgb(99, 98, 98);
+--black: rgb(0, 0, 0);
+
+--boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+--pinkCard: rgb(253, 31, 161, 0.6);
+--smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    padding: .5rem 3.5rem;
+    overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button{
+    border-radius: 34px;
+    border:none;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 26px 10px 26px;
+    background: linear-gradient(180deg, var(--medium-pink) 26.71%, var(--dark-pink) 99.36%);
+    box-shadow: 0px 20px 24px 3px var(--pinkCard);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button:hover{
+    background: rgb(252, 244, 244);
+    cursor: pointer;
+    color: var(--medium-pink); 
+    border: 1px solid var(--medium-pink);
+    margin: -.7px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

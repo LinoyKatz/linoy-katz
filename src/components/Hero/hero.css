@@ -1,0 +1,82 @@
+.hero-section{
+    display: flex;
+    padding: 3rem;
+    height: 85vh;
+    margin-top: 6rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    max-width: 50vw;
+}
+
+.hero-left-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-left-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.hero-left-name>:nth-child(2){
+    color: var(--medium-pink);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.hero-left-name>:nth-child(3){
+    font-weight: 200;
+    font-size: 1rem;
+    color: var(--gray);
+    margin-top: 3vh;
+}
+
+.hero-left-btn{
+    width: 8rem;
+    height: 2rem;
+    padding: 0px 3px;
+}
+
+.hero-left-icons>span:hover{
+    cursor: pointer;
+}
+
+.hero-right{
+    flex: 1;
+    position: relative;
+}
+
+.hero-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.pink-blob{
+    width: 35vw;
+    right: -1vw;
+}
+
+.light-pink-blob{
+   width: 33vw;
+transform: scale(0.99);
+top:20vh ;
+left: 3vw;
+}
+
+.laptop-wave{
+    max-width: 50vw;
+    max-height: 50vh;
+    left: 8vw;
+    top: -3vh;
+}
