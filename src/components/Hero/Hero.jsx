@@ -3,6 +3,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
+import { Link } from "react-router-dom";
 import "./hero.css";
 import PinkBlob from "../../media/blobs/pinkBlob.png";
 import LightPinkBlob from "../../media/blobs/lightPinkBlob.png";
@@ -53,7 +54,14 @@ const Hero = () => {
         </section>
       </section>
       <section className="hero-right">
-        <img className="speech-bouble" src={SpeechBouble} alt="speech-bouble" />
+        {/* <Link to="/meetMe">
+          <img
+            className="speech-bouble"
+            src={SpeechBouble}
+            alt="speech-bouble"
+          />
+        </Link> */}
+
         <img className="pink-blob" src={PinkBlob} alt="pink-blob" />
         <img
           className="light-pink-blob"

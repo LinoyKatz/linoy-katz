@@ -3,8 +3,10 @@ import React from "react";
 import "./services.css";
 import CardRight from "../../media/cards/cardRight.png";
 import CardLeft from "../../media/cards/cardLeft.png";
+import { motion } from "framer-motion";
 
 const Services = () => {
+  const transition = { duration: 5, type: "spring" };
   return (
     <section className="services">
       {/* left side */}
@@ -21,8 +23,22 @@ const Services = () => {
       {/* right side */}
 
       <div className="cards">
-        <img className="card-right" src={CardRight} alt="card" />
-        <img className="card-left" src={CardLeft} alt="card" />
+        <motion.img
+          className="card-right"
+          initial={{ left: "40%" }}
+          whileInView={{ left: "10%" }}
+          transition={transition}
+          src={CardRight}
+          alt="card"
+        />
+        <motion.img
+          className="card-left"
+          initial={{ left: "40%" }}
+          whileInView={{ left: "25%" }}
+          transition={transition}
+          src={CardLeft}
+          alt="card"
+        />
         <div
           className="blur services-blur"
           style={{ background: "rgb(244, 121, 154)" }}

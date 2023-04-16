@@ -4,6 +4,10 @@
   justify-content: space-between;
   padding: 2vw 3vw;
   height: 12vh;
+  background-color: white;
+  width: 100vw;
+  position: fixed;
+  z-index: 3;
 }
 
 .header-left {

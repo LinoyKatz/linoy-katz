@@ -1,37 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap");
 
-:root{
---light-pink: rgb(247, 180, 198);
---medium-pink:rgb(244, 121, 154);
---dark-pink: rgb(224, 73, 116);
---gray: rgb(99, 98, 98);
---black: rgb(0, 0, 0);
+:root {
+  --light-pink: rgb(247, 180, 198);
+  --medium-pink: rgb(244, 121, 154);
+  --dark-pink: rgb(224, 73, 116);
+  --gray: rgb(99, 98, 98);
+  --black: rgb(0, 0, 0);
 
---boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
---pinkCard: rgb(253, 31, 161, 0.6);
---smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --pinkCard: rgb(253, 31, 161, 0.6);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 
-.App{
-    padding: .5rem 3.5rem;
-    overflow: hidden;
+.app-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.button{
-    border-radius: 34px;
-    border:none;
-    color: white;
-    font-size: 1rem;
-    padding: 10px 26px 10px 26px;
-    background: linear-gradient(180deg, var(--medium-pink) 26.71%, var(--dark-pink) 99.36%);
-    box-shadow: 0px 20px 24px 3px var(--pinkCard);
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
 }
 
-.button:hover{
-    background: rgb(252, 244, 244);
-    cursor: pointer;
-    color: var(--medium-pink); 
-    border: 1px solid var(--medium-pink);
-    margin: -.7px;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
+.button {
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 26px 10px 26px;
+  background: linear-gradient(
+    180deg,
+    var(--medium-pink) 26.71%,
+    var(--dark-pink) 99.36%
+  );
+  box-shadow: 0px 20px 24px 3px var(--pinkCard);
+}
+
+.button:hover {
+  background: rgb(252, 244, 244);
+  cursor: pointer;
+  color: var(--medium-pink);
+  border: 1px solid var(--medium-pink);
+  margin: -0.7px;
+}
