@@ -16,7 +16,7 @@ const Hero = () => {
       <section className="hero-left">
         <article className="hero-left-name">
           <span>Hi! I AM</span>
-          <span>Linoy Katz</span>
+          <span>Linoy</span>
           <span>Fullstack web developper</span>
         </article>
         <button className="button hero-left-btn">Hire me!</button>
