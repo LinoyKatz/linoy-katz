@@ -14,9 +14,7 @@ const Services = () => {
         <span>My awesome</span>
         <span>services</span>
         <span>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, harum?
-          <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing.
+          to see my services- <br /> <span>Click here!</span>
         </span>
         <button className="button services-btn">Download CV</button>
       </div>

@@ -1,5 +1,5 @@
 .services {
-  padding: 0 3rem 03rem;
+  padding: 3rem 7rem 2rem 2rem;
   display: flex;
   height: 90vh;
   /* margin-bottom: 8rem; */
@@ -15,6 +15,7 @@
   text-align: center;
   align-items: center;
   margin-top: 13rem;
+  width: 50vw;
 }
 
 .awesome > :nth-child(1) {
@@ -62,6 +63,7 @@
 
 .cards {
   margin-top: 5rem;
+  width: 50vw;
 }
 .card-right {
   max-width: 30vw;

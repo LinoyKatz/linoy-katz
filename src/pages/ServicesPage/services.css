@@ -1,0 +1,78 @@
+.services-div {
+  height: 90vh;
+  width: 100vw;
+  margin: 0 auto;
+  padding: 0rem 10rem 0rem 10rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* gap: 10rem; */
+}
+
+.services-div h1 {
+  height: 10rem;
+  width: 10vw;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.services-div h1 span {
+  color: hotpink;
+}
+.services-div ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+.services-div ul li {
+  font-size: 1.5rem;
+}
+.services-div ul li:hover {
+  font-weight: bold;
+  color: hotpink;
+  cursor: pointer;
+}
+
+.skills-div-left {
+  width: 50vw;
+}
+.skills-div-right {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.services-page-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.my-services {
+  font-size: 2rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  align-items: center;
+  text-align: center;
+  line-height: 4.5rem;
+}
+
+.about-me {
+  font-size: 3rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  align-items: center;
+  text-align: center;
+  line-height: 4.5rem;
+}
+
+.about-me span:hover {
+  font-weight: bold;
+  color: hotpink;
+}

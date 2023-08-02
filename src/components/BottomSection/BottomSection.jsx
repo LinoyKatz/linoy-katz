@@ -2,6 +2,7 @@ import React from "react";
 
 import "./bottomSection.css";
 import PaperPlane from "../../media/bitMoji/paperPlane.png";
+import { Link } from "react-router-dom";
 // import { motion } from "framer-motion";
 
 const BottomSection = () => {
@@ -11,7 +12,9 @@ const BottomSection = () => {
       <div className="bottom-right">
         <span> wanna hear more</span>
         <span>about me?</span>
-        <span>Click here!</span>
+        <Link to="/services">
+          <span>Click here!</span>
+        </Link>
       </div>
       <div className="bottom-left">
         {/* <motion.img
